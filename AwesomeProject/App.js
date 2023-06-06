@@ -14,7 +14,7 @@ const BackgroundImg = require("./images/Photo_BG.png");
 
 export default function App() {
   const [activeScreen, setActiveScreen] = useState(0);
-  const changeScrennFunc = (value) => {
+  const changeScreenFunc = (value) => {
     setActiveScreen(value);
   };
 
@@ -23,9 +23,9 @@ export default function App() {
       <View style={styles.maincontainer}>
         <ImageBackground source={BackgroundImg} style={styles.backImg}>
           
-            {/* <LoginScreen changeScrenn={changeScrennFunc} /> */}
+            {/* <LoginScreen changeScrenn={changeScreenFunc} /> */}
          
-            <RegistrationScreen changeScrenn={changeScrennFunc} />
+            <RegistrationScreen changeScrenn={changeScreenFunc} />
          
         </ImageBackground>
         <StatusBar style="auto" />
