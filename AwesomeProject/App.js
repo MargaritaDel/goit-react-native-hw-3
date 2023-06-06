@@ -23,9 +23,9 @@ export default function App() {
       <View style={styles.maincontainer}>
         <ImageBackground source={BackgroundImg} style={styles.backImg}>
           
-            {/* <LoginScreen changeScrenn={changeScreenFunc} /> */}
+            <LoginScreen changeScrenn={changeScreenFunc} />
          
-            <RegistrationScreen changeScrenn={changeScreenFunc} />
+            {/* <RegistrationScreen changeScrenn={changeScreenFunc} /> */}
          
         </ImageBackground>
         <StatusBar style="auto" />

@@ -59,7 +59,7 @@ const LoginScreen = ({ changeScreen }) => {
           activeOpacity={0.5}
           onPress={passwordShow}
         >
-          <Text style={styles.passwordShowText}>Show</Text>
+          <Text style={styles.passwordShowText}>Показати</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
